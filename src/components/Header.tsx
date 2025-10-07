@@ -12,7 +12,10 @@ const Header = () => {
 
                 </Link>
                 <div className=" flex flex-row ">
-                    <NavItems />
+                    <div className=' md:block hidden'>
+                        <NavItems />
+                    </div>
+                    
                     <UserDropdown />
                 </div>
             </div>
